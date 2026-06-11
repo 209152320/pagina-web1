@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
- 
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="author" content="Josefa" />
   <meta name="description" content="El deshielo glaciar en Chile narrado a través de los ojos de Shoan, el huemul que perdió su hogar de hielo." />
   <title>Mi hogar se está derritiendo — Glaciares en Chile</title>
- 
+
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Space+Mono:wght@400;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
- 
+
   <style>
     :root {
       --hielo:        #EAF4F5;
@@ -22,9 +22,9 @@
       --blanco:       #ffffff;
       --texto-oscuro: #1a2235;
     }
- 
+
     * { box-sizing: border-box; margin: 0; padding: 0; }
- 
+
     body {
       font-family: 'Inter', sans-serif;
       background-color: var(--hielo);
@@ -32,7 +32,7 @@
       font-size: 1rem;
       line-height: 1.75;
     }
- 
+
     /* ── HEADER ── */
     header {
       background-color: var(--noche);
@@ -42,7 +42,7 @@
       position: relative;
       overflow: hidden;
     }
- 
+
     header::after {
       content: "";
       display: block;
@@ -54,7 +54,7 @@
       background: var(--hielo);
       clip-path: ellipse(55% 100% at 50% 100%);
     }
- 
+
     .header-etiqueta {
       display: inline-block;
       font-family: 'Space Mono', monospace;
@@ -67,7 +67,7 @@
       border-radius: 2px;
       margin-bottom: 1.4rem;
     }
- 
+
     header h1 {
       font-family: 'Playfair Display', serif;
       font-size: clamp(2.2rem, 6vw, 4rem);
@@ -78,12 +78,12 @@
       max-width: 700px;
       margin: 0 auto 1rem;
     }
- 
+
     header h1 em {
       color: var(--aguamarina);
       font-style: normal;
     }
- 
+
     header p.bajada {
       font-family: 'Space Mono', monospace;
       font-size: 0.85rem;
@@ -92,7 +92,7 @@
       margin: 0 auto;
       line-height: 1.6;
     }
- 
+
     /* ── NAV ── */
     nav {
       background-color: var(--noche);
@@ -102,7 +102,7 @@
       padding: 0 1rem 1rem;
       flex-wrap: wrap;
     }
- 
+
     nav a {
       color: var(--celeste);
       text-decoration: none;
@@ -114,19 +114,19 @@
       border: 1px solid transparent;
       transition: border-color 0.2s, color 0.2s;
     }
- 
+
     nav a:hover {
       border-color: var(--aguamarina);
       color: var(--blanco);
     }
- 
+
     /* ── MAIN ── */
     main {
       max-width: 740px;
       margin: 0 auto;
       padding: 3rem 1.5rem 4rem;
     }
- 
+
     /* ── INTRO SHOAN ── */
     .intro-shoan {
       display: flex;
@@ -138,19 +138,19 @@
       padding: 2rem;
       margin-bottom: 3rem;
     }
- 
+
     .intro-shoan .shoan-icon {
       font-size: 3.5rem;
       line-height: 1;
       flex-shrink: 0;
     }
- 
+
     .intro-shoan p {
       color: rgba(234,244,245,0.88);
       font-size: 0.95rem;
       margin: 0;
     }
- 
+
     .intro-shoan strong {
       color: var(--aguamarina);
       font-family: 'Space Mono', monospace;
@@ -160,12 +160,12 @@
       letter-spacing: 0.1em;
       text-transform: uppercase;
     }
- 
+
     /* ── SECCIONES ── */
     section {
       margin: 3rem 0;
     }
- 
+
     /* eyebrow label */
     .eyebrow {
       font-family: 'Space Mono', monospace;
@@ -176,7 +176,7 @@
       margin-bottom: 0.5rem;
       display: block;
     }
- 
+
     h2 {
       font-family: 'Playfair Display', serif;
       font-size: 1.9rem;
@@ -185,23 +185,23 @@
       line-height: 1.2;
       margin-bottom: 1.2rem;
     }
- 
+
     h3 {
       font-family: 'Playfair Display', serif;
       font-size: 1.2rem;
       color: var(--azul-frio);
       margin: 1.5rem 0 0.5rem;
     }
- 
+
     p {
       color: #2a3550;
       margin-bottom: 1rem;
     }
- 
+
     p strong {
       color: var(--noche);
     }
- 
+
     /* divisor */
     .divisor {
       border: none;
@@ -209,7 +209,7 @@
       margin: 2.5rem 0;
       opacity: 0.5;
     }
- 
+
     /* ── STAT GRID ── */
     .stat-grid {
       display: grid;
@@ -221,13 +221,13 @@
       overflow: hidden;
       margin: 2rem 0;
     }
- 
+
     .stat-card {
       background: var(--noche);
       padding: 1.4rem 1rem;
       text-align: center;
     }
- 
+
     .stat-card .numero {
       font-family: 'Playfair Display', serif;
       font-size: 2.2rem;
@@ -236,7 +236,7 @@
       display: block;
       line-height: 1;
     }
- 
+
     .stat-card .label {
       font-family: 'Space Mono', monospace;
       font-size: 0.68rem;
@@ -246,7 +246,7 @@
       text-transform: uppercase;
       letter-spacing: 0.05em;
     }
- 
+
     /* ── BLOCKQUOTE ── */
     blockquote {
       border-left: 3px solid var(--aguamarina);
@@ -260,18 +260,18 @@
       color: var(--hielo);
       line-height: 1.6;
     }
- 
+
     /* ── IMAGEN / VISUALIZACIÓN ── */
     .visualizacion {
       margin: 2rem 0;
     }
- 
+
     .visualizacion img {
       width: 100%;
       border-radius: 6px;
       border: 1px solid var(--celeste);
     }
- 
+
     .visualizacion figcaption {
       font-family: 'Space Mono', monospace;
       font-size: 0.72rem;
@@ -279,7 +279,7 @@
       margin-top: 0.6rem;
       line-height: 1.5;
     }
- 
+
     /* ── DATOS CUENCAS ── */
     .cuenca-lista {
       list-style: none;
@@ -289,7 +289,7 @@
       overflow: hidden;
       margin: 1.5rem 0;
     }
- 
+
     .cuenca-lista li {
       display: flex;
       justify-content: space-between;
@@ -299,31 +299,31 @@
       font-size: 0.9rem;
       gap: 1rem;
     }
- 
+
     .cuenca-lista li:last-child {
       border-bottom: none;
     }
- 
+
     .cuenca-lista li:nth-child(odd) {
       background: var(--blanco);
     }
- 
+
     .cuenca-lista li:nth-child(even) {
       background: #f0f8fa;
     }
- 
+
     .cuenca-lista .cuenca-num {
       font-family: 'Space Mono', monospace;
       font-size: 0.75rem;
       color: var(--azul-frio);
       min-width: 24px;
     }
- 
+
     .cuenca-lista .cuenca-nombre {
       flex: 1;
       color: var(--texto-oscuro);
     }
- 
+
     .cuenca-lista .cuenca-valor {
       font-family: 'Space Mono', monospace;
       font-size: 0.85rem;
@@ -331,7 +331,7 @@
       color: var(--noche);
       white-space: nowrap;
     }
- 
+
     /* ── DATOS CLAVE BOX ── */
     .datos-box {
       background: var(--noche);
@@ -340,40 +340,40 @@
       margin: 2rem 0;
       color: var(--hielo);
     }
- 
+
     .datos-box .eyebrow {
       color: var(--aguamarina);
     }
- 
+
     .datos-box h3 {
       color: var(--blanco);
       font-family: 'Playfair Display', serif;
       font-size: 1.1rem;
       margin: 0 0 1rem;
     }
- 
+
     .datos-box ul {
       padding-left: 1.1rem;
       margin: 0;
     }
- 
+
     .datos-box li {
       color: rgba(234,244,245,0.85);
       font-size: 0.92rem;
       margin-bottom: 0.45rem;
     }
- 
+
     .datos-box li strong {
       color: var(--aguamarina);
     }
- 
+
     /* ── PREGUNTAS ── */
     .preguntas {
       list-style: none;
       padding: 0;
       counter-reset: preg;
     }
- 
+
     .preguntas li {
       counter-increment: preg;
       display: flex;
@@ -383,7 +383,7 @@
       color: #2a3550;
       font-size: 0.95rem;
     }
- 
+
     .preguntas li::before {
       content: "0" counter(preg);
       font-family: 'Space Mono', monospace;
@@ -392,7 +392,7 @@
       min-width: 28px;
       padding-top: 0.1rem;
     }
- 
+
     /* ── FUENTES ── */
     .fuentes {
       background: var(--blanco);
@@ -401,27 +401,27 @@
       padding: 1.5rem 1.8rem;
       margin-top: 2rem;
     }
- 
+
     .fuentes ol {
       padding-left: 1.2rem;
       margin-top: 0.8rem;
     }
- 
+
     .fuentes li {
       font-size: 0.88rem;
       color: var(--gris-roca);
       margin-bottom: 0.5rem;
     }
- 
+
     .fuentes a {
       color: var(--azul-frio);
       text-decoration: none;
     }
- 
+
     .fuentes a:hover {
       text-decoration: underline;
     }
- 
+
     /* ── FOOTER ── */
     footer {
       background-color: var(--noche);
@@ -432,20 +432,20 @@
       font-size: 0.75rem;
       line-height: 2;
     }
- 
+
     footer a {
       color: var(--aguamarina);
       text-decoration: none;
     }
- 
+
     footer a:hover {
       text-decoration: underline;
     }
   </style>
 </head>
- 
+
 <body>
- 
+
   <!-- HEADER -->
   <header>
     <div class="header-etiqueta">Periodismo de Datos · IPG 2022 · UC</div>
@@ -455,7 +455,7 @@
       importa más de lo que parece.
     </p>
   </header>
- 
+
   <!-- NAV -->
   <nav>
     <a href="#historia">Historia</a>
@@ -464,9 +464,9 @@
     <a href="#cuencas">Cuencas</a>
     <a href="#fuentes">Fuentes</a>
   </nav>
- 
+
   <main>
- 
+
     <!-- VOZ DE SHOAN -->
     <div class="intro-shoan">
       <div class="shoan-icon">🦌</div>
@@ -478,7 +478,7 @@
         </p>
       </div>
     </div>
- 
+
     <!-- STATS -->
     <div class="stat-grid">
       <div class="stat-card">
@@ -498,14 +498,14 @@
         <span class="label">km³ de agua en la cuenca con más reservas</span>
       </div>
     </div>
- 
+
     <hr class="divisor" />
- 
+
     <!-- CRÓNICA -->
     <section id="historia">
       <span class="eyebrow">La historia</span>
       <h2>Un país rico en hielo,<br>con sed en el centro</h2>
- 
+
       <p>
         Si uno buscara en un mapa dónde está el agua glaciar de Chile, la respuesta sería clara y casi cruel:
         está al sur. Muy al sur. Las cuencas con mayores reservas de hielo del país se ubican en la Patagonia
@@ -513,26 +513,26 @@
         Mientras tanto, en la zona central —la más poblada y la más sedienta— el hielo es escaso y se derrite
         más rápido que en ningún otro lugar del país.
       </p>
- 
+
       <p>
         Esto es lo que revelan los datos del <strong>Inventario Público de Glaciares 2022</strong> (IPG 2022),
         el catastro oficial del Estado de Chile elaborado por la Dirección General de Aguas (DGA). Al analizar
         las reservas de agua glaciar por cuenca hidrográfica, emerge una geografía del desequilibrio: diez
         cuencas concentran la inmensa mayoría del agua congelada del país, y casi todas están en el extremo sur.
       </p>
- 
+
       <blockquote>
         "El agua glaciar de Chile está donde no se necesita con urgencia,
         y escasea donde más se depende de ella."
       </blockquote>
- 
+
       <p>
         La cuenca con más reservas es la de <strong>Costeras entre Límite Región y Seno Andrew</strong>, con
         741 km³ de agua glaciar equivalente. Le sigue <strong>Costeras e Islas entre Río Aysén y Río Baker</strong>
         con 614 km³, y el <strong>Río Pascua</strong> con 292 km³. Son cifras enormes. Y están todas a miles de
         kilómetros de Santiago.
       </p>
- 
+
       <p>
         La paradoja es evidente: Chile tiene una de las mayores reservas de agua dulce congelada del planeta,
         pero enfrenta una megasequía que ya supera los quince años en la zona central. La <strong>Macrozona
@@ -541,14 +541,14 @@
         en total: es un problema de dónde está y cómo se está perdiendo.
       </p>
     </section>
- 
+
     <hr class="divisor" />
- 
+
     <!-- DATOS -->
     <section id="datos">
       <span class="eyebrow">Los números</span>
       <h2>Lo que dice el IPG 2022</h2>
- 
+
       <div class="datos-box">
         <span class="eyebrow">Datos clave</span>
         <h3>Inventario Público de Glaciares 2022 — DGA, MOP</h3>
@@ -563,20 +563,20 @@
         </ul>
       </div>
     </section>
- 
+
     <hr class="divisor" />
- 
+
     <!-- VISUALIZACIÓN -->
     <section id="visualizacion">
       <span class="eyebrow">Visualización</span>
       <h2>Top 10 cuencas con más agua glaciar</h2>
- 
+
       <p>
         El gráfico muestra las diez cuencas hidrográficas con mayor volumen de agua glaciar equivalente en Chile,
         según el IPG 2022. La diferencia entre la primera cuenca y el resto del ranking revela la concentración
         extrema de reservas en el extremo sur del país.
       </p>
- 
+
       <div class="visualizacion">
         <figure>
           <img
@@ -590,14 +590,14 @@
         </figure>
       </div>
     </section>
- 
+
     <hr class="divisor" />
- 
+
     <!-- CUENCAS -->
     <section id="cuencas">
       <span class="eyebrow">Ranking completo</span>
       <h2>Las 10 cuencas del ranking</h2>
- 
+
       <ul class="cuenca-lista">
         <li>
           <span class="cuenca-num">01</span>
@@ -650,7 +650,7 @@
           <span class="cuenca-valor">17 km³</span>
         </li>
       </ul>
- 
+
       <h3>Preguntas que guían la investigación</h3>
       <ol class="preguntas">
         <li>¿Cuánto han disminuido los glaciares en Chile en los últimos años?</li>
@@ -660,7 +660,7 @@
         <li>¿Qué podría pasar si la tendencia de deshielo continúa al ritmo actual?</li>
       </ol>
     </section>
- 
+
     <!-- FUENTES -->
     <div id="fuentes" class="fuentes">
       <span class="eyebrow">Referencias</span>
@@ -684,15 +684,15 @@
         </li>
       </ol>
     </div>
- 
+
   </main>
- 
+
   <!-- FOOTER -->
   <footer>
     <p>Pieza narrativa individual · Proyecto Deshielo Glaciar en Chile</p>
     <p>Periodismo de Datos · Universidad Católica de Chile · 2026</p>
     <p><a href="../index.html">← volver a la webstory grupal</a></p>
   </footer>
- 
+
 </body>
 </html>
