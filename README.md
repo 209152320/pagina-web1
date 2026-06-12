@@ -6,7 +6,7 @@ Este repositorio contiene mi trabajo individual para el proyecto grupal sobre el
  
 La pieza se construyó a partir de los datos del **Inventario Público de Glaciares 2022 (IPG 2022)** de la Dirección General de Aguas (DGA) y tiene como foco las **10 cuencas con mayores reservas de agua glaciar en Chile**, analizando su distribución geográfica y su relación con la crisis hídrica nacional.
  
-**Sitio publicado en GitHub Pages:** [link aquí](https://209152320.github.io/pagina-web1/)
+**Sitio publicado en GitHub Pages:** [link aquí][(https://209152320.github.io/pagina-web1/)](https://209152320.github.io/Tarea-03/)
  
 ---
  
